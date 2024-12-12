@@ -20,7 +20,7 @@ header {
     margin-top: 20px;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
 }
-@media (max-width: 250px) {
+@media (max-width: 600px) {
     .logo {
         width: 100px;
     }
