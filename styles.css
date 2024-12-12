@@ -160,7 +160,7 @@ header h1 {
     margin-top: 20px;
 }
 .gallery .gallery-item {
-    width: 375px;
+    width: 300px;
     height: auto;
     border: 2px solid #ccc;
     border-radius: 5px;
