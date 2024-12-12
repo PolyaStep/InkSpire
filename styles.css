@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
 body {
     font-family: 'Cinzel', serif;
     line-height: 1.6;
@@ -132,7 +133,6 @@ footer div a i:hover {
     color: #ff4500;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
 
 body {
     font-family: 'Cinzel', serif;
