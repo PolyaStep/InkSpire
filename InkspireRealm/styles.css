@@ -1,0 +1,220 @@
+body {
+    font-family: 'Cinzel', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e1e2f, #3c4ea7);
+}
+header {
+    background: linear-gradient(to right, #020258, #04177e);
+    color: #fce307;
+    padding: 20px 40px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.logo {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+@media (max-width: 600px) {
+    .logo {
+        width: 100px;
+    }
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #020258;
+    padding: 10px;
+    border-bottom: 2px solid #04177e;
+}
+nav ul li a {
+    color: #fce307;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+nav ul li a:hover {
+    background: #fce307;
+    color: #020258;
+}
+footer {
+    background: #3c4ea7;
+    color: hsl(288, 13%, 8%);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.home-section {
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #001a4d;
+    color: #FFD700;
+    border-radius: 5px;
+    text-align: left;
+}
+.home-section h2
+.home-section p {
+    margin-left: 20px;
+}
+.about-section {
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #001a4d;
+    color: #FFD700;
+    border-radius: 5px;
+    text-align: left;
+}
+.about-section h2
+.about-section p {
+    margin-left: 20px;
+}
+.myprofile-section {
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #001a4d;
+    color: #FFD700;
+    border-radius: 5px;
+    text-align: left;
+}
+.myprofile-section h2
+.myprofile-section p {
+    margin-left: 20px;
+}
+.gallery-section {
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #001a4d;
+    color: #FFD700;
+    border-radius: 5px;
+    text-align: left;
+}
+.gallery-section h2
+.gallery-section p {
+    margin-left: 20px;
+}
+.contact-section {
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #001a4d;
+    color: #FFD700;
+    border-radius: 5px;
+    text-align: left;
+}
+.content-section h2
+.content-section p {
+    margin-left: 20px;
+}
+footer div a {
+    color: hsl(177, 57%, 53%);
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer div a i {
+    front-size: 24px;
+    color: #00acee;
+    transition: color 0.3s ease;
+}
+footer div a i:hover {
+    color: #ff4500:
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #020258;
+    color: #FFD700;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    background: linear-gradient(90deg, #FFD700, #FFC700, #FFC700, #FFB300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0;
+}
+.gallery {
+    display: flex; /* Располагает изображения в ряд */
+    justify-content: center; /* Выравнивает изображения по центру */
+    flex-wrap: wrap; /* Позволяет изображениям переноситься на следующую строку при необходимости */
+    gap: 20px; /* Задает расстояние между изображениями */
+    margin-top: 20px; /* Отступ сверху */
+}
+.gallery-item {
+    width: 30%; /* Размер каждого изображения — 30% от ширины контейнера */
+    max-width: 300px; /* Максимальная ширина изображения */
+    height: auto; /* Сохраняет пропорции изображения */
+    border: 2px solid #ccc; /* Рамка для каждого изображения */
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для стильного эффекта */
+    transition: transform 0.3s ease; /* Анимация при наведении */
+}
+.gallery-item:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #001a4d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #FFD700;
+}
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f8f9fa;
+    color: #333;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: #FFD700;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.8);
+}
+.contact-form button {
+    background: #FFD700;
+    color: #001a4d;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.contact-form button:hover {
+    background: #FFC700;
+}
+
